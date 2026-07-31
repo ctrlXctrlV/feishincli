@@ -3,6 +3,5 @@ include/
 lib/
 lib64/
 __pycache__/
-screenshots/
 pyvenv.cfg
 .gitignore.local
