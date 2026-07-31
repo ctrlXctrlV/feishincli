@@ -79,11 +79,15 @@ using dnf:
 ## Run
 
 From the virtual environment:  
+
     bin/feishincli
 
 And if you installed the python dependencies globally:  
+
    python3 feishincli.py
+
 or  
+
     chmod +x feishincli.py  (once)
     ./feishincli.py
 
