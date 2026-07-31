@@ -105,7 +105,7 @@ or do:
     scripts\python feishincli.py
 
 The script will attempt to connect to a running instance of Feishin. 
-(Make sure the remote control server is running hostname, username and password are set correctly.)  
+(Make sure the remote control server is running and hostname, username and password are set correctly.)  
 
 If Feishin is not already running _and_ hostname is not set to connect to a remote host, 
 the script will attempt to start Feishin. Do make sure the `feishin_path` is set correctly. 
