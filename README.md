@@ -80,7 +80,7 @@ using dnf:
 
 From the virtual environment:  
 
-    bin/feishincli
+    bin/python ./feishincli.py
 
 And if you installed the python dependencies globally:  
 
