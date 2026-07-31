@@ -48,7 +48,7 @@ To install in a virtual environment clone this repository and run:
 
 Clone the repository or download just the .py file and install the dependencies:  
 
-    ```pip install prompt_toolkit pyfiglet websockets```
+    pip install prompt_toolkit pyfiglet websockets
 
 Or if that fails as it does on most modern systems, use your application manager to install them:  
 
