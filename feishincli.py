@@ -34,7 +34,7 @@ from prompt_toolkit.key_binding import KeyBindings
 #     Feishin -> settings -> window -> remote ( as of version 1.15.1 )
 hostname = 'ws://localhost:4333'
 username = 'feishin'
-password = 'MxHVd6F4'
+password = 'password'
 
 # --- Feishin application path, used to attempt Feishin if not already running.
 feishin_path = '/usr/bin/feishin' # Windows users use: double backslashes: c:\\us...
@@ -79,8 +79,8 @@ SYMBOL_VOLUME    = '🔊'             # used in status print and title bar (if e
 
 # colors for favorite and display of the current song.
 COlOR_FAVORITE   = ''               # terminal default
-COLOR_FAVORITE   = '\033[38;5;196m' # red
-COLOR_FAVORITE   = '\033[38;5;199m' # purple
+# COLOR_FAVORITE   = '\033[38;5;196m' # red
+# COLOR_FAVORITE   = '\033[38;5;199m' # purple
 
 COLOR_TEXT       = ''               # terminal default
 # COLOR_TEXT       = '\033[38;5;202m' # dark orange.
@@ -91,7 +91,7 @@ COLOR_RESET      = '\033[0m'
 # Set window/pane title to: 'Feishin paused  🔊 35'
 # might not always be safe and it won't work on all platforms / terminals / configurations
 # check / test implementation in function: _set_window_title
-SET_TITLE_BAR = True
+SET_TITLE_BAR = False
 
 
 # --- start Feishin

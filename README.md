@@ -41,10 +41,9 @@ Make sure Feishin and Python are installed.
 
 To install in a virtual environment clone this repository and run:  
 
-    ```
     python3 -m venv .
     bin/pip install .
-    ```
+
 ### System-wide dependency installation
 
 Clone the repository or download just the .py file and install the dependencies:  
@@ -55,15 +54,15 @@ Or if that fails as it does on most modern systems, use your application manager
 
 using apt:  
 
-    ```sudo apt install python3-prompt_toolkit python3-pyfiglet python3-websockets```
+    sudo apt install python3-prompt_toolkit python3-pyfiglet python3-websockets
 
 using pacman:  
 
-    ```sudo pacman -S python-prompt_toolkit python-pyfiglet python-websockets```
+    sudo pacman -S python-prompt_toolkit python-pyfiglet python-websockets
 
 using dnf:  
 
-    ```sudo dnf install python3-prompt_toolkit python3-pyfiglet python3-websockets```
+    sudo dnf install python3-prompt_toolkit python3-pyfiglet python3-websockets
 
 ## Configuration
 
@@ -80,13 +79,13 @@ using dnf:
 ## Run
 
 From the virtual environment:  
-    ```bin/feishincli```
+    bin/feishincli
 
 And if you installed the python dependencies globally:  
-   ```python3 feishincli.py```
+   python3 feishincli.py
 or  
     chmod +x feishincli.py  (once)
-    ```./feishincli.py```
+    ./feishincli.py
 
 If Feishin is not already running the script will attempt to start Feishin, otherwise 
 it will connect to a running instance. (as long as the remote control server is running and 
