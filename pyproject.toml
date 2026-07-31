@@ -14,8 +14,3 @@ dependencies = [
     "pyfiglet>=1.0.4",
     "websockets>=16.1.1",
 ]
-[project.scripts]
-feishincli = "feishincli:run_cli"
-[tool.hatch.build.targets.wheel]
-only-include = ["feishincli.py"]
-sources = ["."]
