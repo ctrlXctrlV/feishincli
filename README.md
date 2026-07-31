@@ -88,7 +88,7 @@ And if you installed the python dependencies globally:
 
 or  
 
-    chmod +x feishincli.py  (once)
+    chmod +x feishincli.py  # (once)
     ./feishincli.py
 
 If Feishin is not already running the script will attempt to start Feishin, otherwise 

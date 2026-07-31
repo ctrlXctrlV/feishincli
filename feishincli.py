@@ -78,7 +78,7 @@ SYMBOL_FAVORITE  = '❤'              # for favorite songs.
 SYMBOL_VOLUME    = '🔊'             # used in status print and title bar (if enabled)
 
 # colors for favorite and display of the current song.
-COlOR_FAVORITE   = ''               # terminal default
+COLOR_FAVORITE   = ''               # terminal default
 # COLOR_FAVORITE   = '\033[38;5;196m' # red
 # COLOR_FAVORITE   = '\033[38;5;199m' # purple
 
