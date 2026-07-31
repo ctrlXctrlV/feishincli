@@ -9,8 +9,8 @@ Works with Feishin:
 Uses the remote control server build into Feishin.  
 Works when running Feishin locally, but can also be used to monitor and control a remote instance.  
 
-Tested and created for Feishin version 1.15.1 on Arch Linux.  
-Tested on some other Linux distributions, as well as Windows 11, not tested on MacOS.  
+Created and tested for Feishin version 1.15.1 on Arch Linux.  
+Tested on other Linux distributions, as well as Windows 11, not tested on MacOS.  
 Please let me know if you encounter any issues.  
 
 This script is intended to be run in a corner of a multi-paned terminal window.  
@@ -41,8 +41,15 @@ Make sure Feishin and Python are installed.
 
 To install in a virtual environment clone this repository and run:  
 
+#### Linux
+
     python3 -m venv .
     bin/pip install .
+
+#### Windows
+
+    python -m venv .
+    scripts\pip install .
 
 ### System-wide dependency installation
 
@@ -78,22 +85,30 @@ using dnf:
 
 ## Run
 
+### Linux
+
 From the virtual environment:  
 
     bin/python ./feishincli.py
 
-And if you installed the python dependencies globally:  
+or if you installed the python dependencies globally:  
 
    python3 feishincli.py
 
-or  
+or do:  
 
     chmod +x feishincli.py  # (once)
     ./feishincli.py
 
-If Feishin is not already running the script will attempt to start Feishin, otherwise 
-it will connect to a running instance. (as long as the remote control server is running and 
-username and password are correctly set.)
+### Windows
+
+    scripts\python feishincli.py
+
+The script will attempt to connect to a running instance of Feishin. 
+(Make sure the remote control server is running hostname, username and password are set correctly.)  
+
+If Feishin is not already running _and_ hostname is not set to connect to a remote host, 
+the script will attempt to start Feishin. Do make sure the `feishin_path` is set correctly. 
 
 ## Acknowledgements
 
